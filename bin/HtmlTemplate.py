@@ -16,7 +16,7 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import string 
-
+import SQLBackend
 
 
 class Tag:
@@ -42,7 +42,13 @@ class Tag:
 
     ## add a content 
     def addContent( self, _cont ):
-        self.m_content.append ( _cont )
+        if isinstance(_cont, Tag ) :
+            self.m_content.append ( _cont )
+            #_outString += "..."
+        elif isinstance(_cont, TagSingle ) :
+            self.m_content.append ( _cont )
+        else:
+            self.m_content.append ( _cont + u'' )
         
     ## add a attribute
     ## @parm _attName name of attribute
@@ -150,6 +156,7 @@ class HtmlTemplate:
         
     
     def getCompleteSite(self, aktivtab, _appBoxValue ):
+        _sqlBackend = SQLBackend.SQLBackend()
         
         _htmlTag = Tag ( "html" )
         _head = Tag ( "head" )
@@ -157,7 +164,7 @@ class HtmlTemplate:
         # css
         _link = TagSingle ( "link" )
         _link.setAttribute ( "rel", "stylesheet" )
-        _link.setAttribute ( "href", "static/home.css" )
+        _link.setAttribute ( "href", "static/" + aktivtab + ".css" )
         _link.setAttribute ( "type", "text/css" )
         #_link.setAttribute ( "charset", "utf-8" )
         _head.addContent ( _link )
@@ -170,6 +177,13 @@ class HtmlTemplate:
         _charset.setAttribute ( "http-equiv", "content-type" )
         _charset.setAttribute ( "content", "text/html;  charset=utf-8" )
         _head.addContent ( _charset )
+        
+        #<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        _link_2 = TagSingle ( "link" )
+        _link_2.setAttribute ( "rel", "shortcut icon" )
+        _link_2.setAttribute ( "href", "static/favicon.ppm" )
+        _link_2.setAttribute ( "type", "image/x-icon" )
+        _head.addContent ( _link_2 )
         
         _htmlTag.addContent ( _head )
         
@@ -190,6 +204,9 @@ class HtmlTemplate:
         _h3 = Tag ( "h3" )
         _h3.addContent ( u'<i>BELIEF MATCHING</i> (beta)' )
         _bannerbox.addContent ( _h3 )
+        
+        _bannerbox.addContent ( u'Letztes Update: ' )
+        _bannerbox.addContent ( _sqlBackend.getDateOfLastUpdate() )
         
         _all.addContent ( _bannerbox )
 
@@ -218,20 +235,20 @@ class HtmlTemplate:
         
         # test
         _item_test = Tag ( "li" )
-        if ( aktivtab == "test"):
+        if ( aktivtab == "belieftest"):
             _item_test.setAttribute ( "class", "tabmiddle_activ" )
         else:
             _item_test.setAttribute ( "class", "tabmiddle" )
-        _item_test.addContent ( u'<a href="test">Test</a>' )
+        _item_test.addContent ( u'<a href="belieftest">Test</a>' )
         _liste.addContent ( _item_test )
             
         # database
         _item_database = Tag ( "li" )
-        if ( aktivtab == "datenbasis"):
+        if ( aktivtab == "databaseview" or aktivtab == "databaseedit" ):
             _item_database.setAttribute ( "class", "tabmiddle_activ" )
         else:
             _item_database.setAttribute ( "class", "tabmiddle" )
-        _item_database.addContent ( u'<a href="datenbasis">Datenbasis</a>' )
+        _item_database.addContent ( u'<a href="databaseview">Datenbasis</a>' )
         _liste.addContent ( _item_database )
         
         # participate

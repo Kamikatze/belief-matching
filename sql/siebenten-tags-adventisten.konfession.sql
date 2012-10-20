@@ -2,9 +2,9 @@ BEGIN;
 
 INSERT INTO denominations ( denomination_id, denomination, url ) 
  VALUES ( 
-     7,  
-     'Reformierte Kirchen', 
-     'http://de.wikipedia.org/wiki/Reformierte_Kirche'); 
+     11,  
+     'Siebenten-Tags-Adventisten', 
+     'http://de.wikipedia.org/wiki/Siebenten-Tags-Adventisten'); 
 
 
 -- ##################### Kategorie : Abendmahl #####################
@@ -14,45 +14,40 @@ INSERT INTO denomination_answers (
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         131,         7,         0, 
-        'In reformierten Kirchen wird das Abendmahl als reines 
- Gedächtnismahl verstanden.'); 
+     VALUES (         131,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         132,         7,         0, 
-        'Die reformierten Kirchen der Schweiz lassen Kinder zu. In
- der Regel ist zugelassen, wer an Jesus Christus glaubt.'); 
+     VALUES (         132,         11,         0, 
+        'Das Abendmahl wird als offene Kommunion gefeiert, alle gläubigen Christen sind dazu eingeladen. Voraussetzung für den Empfang des Abendmahls ist Einkehr und Buße. Dabei gibt es keine feste Beichtliturgie. (Wikipedia)'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         133,         7,         0, 
-        'Die Taufe ist in der Regel nicht das Kriterium.'); 
+     VALUES (         133,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         134,         7,         1, 
-        'Die Abendmalfeier hat keinen so großen Stellenwert wie bei
- Lutheranern oder Katholiken beigemessen.'); 
+     VALUES (         134,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         135,         7,         1, 
-        'Ja, wie in den meisten protestantischen Kirchen 
- erkennen die Kirchen der reformierten Tradition mit Taufe und Abendmahl zwei 
- Sakramente an. (Wikipedia)'); 
+     VALUES (         135,         11,         2, 
+        '(Noch) Kein Kommentar'); 
  
 
 -- ##################### Kategorie : Administration/<br>Leitung #####################
@@ -62,52 +57,48 @@ INSERT INTO denomination_answers (
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         151,         7,         1, 
-        'I den reformierten Gemeinden werden die Ämter von der Gemeinde gewählt/vergeben.'); 
+     VALUES (         151,         11,         1, 
+        'Als Generalkonferenz (General Conference Session) wird zugleich auch die alle fünf Jahre stattfindende Vollversammlung der Kirche bezeichnet. Hier finden sich aus allen Ländern gewählte Delegierte zusammen, um wichtige Beschlüsse zu fassen, ein neues Präsidium zu wählen. (Wikipedia)'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         152,         7,         1, 
-        'Die Gemeinden sind weitestgehend selbständig, auch wenn sie überregional vernetzt
- und organisiert sind.'); 
+     VALUES (         152,         11,         0, 
+        'Die Kirche ist presbyterianisch-synodal als Weltkirche organisiert. (Wikipedia)'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         153,         7,         1, 
-        'Liturgische Handlungen werden in aller
- Regel von Priestern durchgeführt auch wen das <i>Priestertum Aller</i> stärker
- als bei den Lutheranern betont wird..'); 
+     VALUES (         153,         11,         1, 
+        'Die Leitung darf nur durch ordinierte Pastoren und Älteste erfolgen, Diakone dürfen assistieren. (Wikipedia)'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         155,         7,         1, 
-        'Frauen können alle Ämter bekleiden.'); 
+     VALUES (         155,         11,         3, 
+        'Nicht bekannt.'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         157,         7,         0, 
-        'Die Gemeinden werden von Hauptamtlichen (Pfarrern) geleitet
- bzw. betreut.'); 
+     VALUES (         157,         11,         1, 
+        'Die Ortsgemeinde (wird in Deutschland in der Regel Adventgemeinde genannt) ist die kleinste organisatorische Einheit. Sie wird von ordinierten Ältesten und von einem gewählten Gemeindeausschuss geleitet, dem immer auch der zuständige Pastor angehört. (Wikipedia)'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         1512,         7,         0, 
-        ''); 
+     VALUES (         1512,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 
 -- ##################### Kategorie : Bibel #####################
@@ -117,83 +108,80 @@ INSERT INTO denomination_answers (
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         141,         7,         0, 
-        'Die Bibel ist sehr wichtig, aber sie wird in der Regel nicht Wort-wörtlich ausgelegt.'); 
+     VALUES (         141,         11,         1, 
+        'Die historisch-kritische Exegese und die Evolutionstheorie abgelehnt.'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         142,         7,         1, 
-        'Ja: <i>sola scriptura</i>!'); 
+     VALUES (         142,         11,         0, 
+        'Eine Streitfrage die sich an Ellen Whites in der Rolle als Prophetin entzündet. Das protestantische Sola scriptura wird deshalb nicht völlig zugestanden. (Wikipedia)'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         143,         7,         0, 
-        ''); 
+     VALUES (         143,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         144,         7,         1, 
-        'Die wissenschaftliche Betrachtung (historisch-kritisch) wird in der Regel propagiert.'); 
+     VALUES (         144,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         145,         7,         0, 
-        'Die Notwendigkeit einer Auslegung wird zwar bejaht, aber aus einer wissenschaftlichen
- (historisch-kritischen) Perspektive. Das Konzept - <i>Geist der Bibel</i> - ist
- dem er fremd.'); 
+     VALUES (         145,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         146,         7,         0, 
-        'Nein, das widerspricht dem Stand der Wissenschaft. Auch wenn auf dem Grundsatz 
- <i>sola scriptura</i> viel Wert gelegt wird.'); 
+     VALUES (         146,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         147,         7,         1, 
-        'Ja, Gott wir eine Bedeutung für die Schöpfung/Evolution beigemessen.'); 
+     VALUES (         147,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         148,         7,         0, 
-        ''); 
+     VALUES (         148,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         149,         7,         0, 
-        ''); 
+     VALUES (         149,         11,         1, 
+        'Adventisten zeichnen sich in der Regel durch ein gutes Bibelwissen aus. Eine wichtige Rolle spielt dabei das wöchentliche Bibelgespräch, welches Bestandteil des adventistischen Sabbat-Gottesdienstes ist. (Wikipedia)'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         1410,         7,         0, 
-        ''); 
+     VALUES (         1410,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 
 -- ##################### Kategorie : Erlösung/<br>Rechtfertigung #####################
@@ -203,16 +191,63 @@ INSERT INTO denomination_answers (
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         181,         7,         0, 
-        'Bedingt, durch die Prädestinationslehre ist der Mensch 
- in gewisser Hinsicht schon <i>gerichtet</i>'); 
+     VALUES (         181,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         182,         7,         1, 
+     VALUES (         182,         11,         1, 
+        '(Noch) Kein Kommentar'); 
+ 
+INSERT INTO denomination_answers ( 
+        question_id, 
+        denomination_id, 
+        answer_nr, 
+        commentary ) 
+     VALUES (         183,         11,         0, 
+        '(Noch) Kein Kommentar'); 
+ 
+INSERT INTO denomination_answers ( 
+        question_id, 
+        denomination_id, 
+        answer_nr, 
+        commentary ) 
+     VALUES (         184,         11,         0, 
+        '(Noch) Kein Kommentar'); 
+ 
+INSERT INTO denomination_answers ( 
+        question_id, 
+        denomination_id, 
+        answer_nr, 
+        commentary ) 
+     VALUES (         185,         11,         0, 
+        '(Noch) Kein Kommentar'); 
+ 
+INSERT INTO denomination_answers ( 
+        question_id, 
+        denomination_id, 
+        answer_nr, 
+        commentary ) 
+     VALUES (         186,         11,         0, 
+        '(Noch) Kein Kommentar'); 
+ 
+INSERT INTO denomination_answers ( 
+        question_id, 
+        denomination_id, 
+        answer_nr, 
+        commentary ) 
+     VALUES (         187,         11,         1, 
+        '(Noch) Kein Kommentar'); 
+ 
+INSERT INTO denomination_answers ( 
+        question_id, 
+        denomination_id, 
+        answer_nr, 
+        commentary ) 
+     VALUES (         188,         11,         0, 
         ''); 
  
 INSERT INTO denomination_answers ( 
@@ -220,123 +255,63 @@ INSERT INTO denomination_answers (
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         183,         7,         0, 
-        ''); 
+     VALUES (         189,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         184,         7,         1, 
-        'Wesentliches Charakteristikum reformierter Theologie ist ferner 
- die starke Betonung der Prädestinationslehre, des Gedankens einer Erwählung der 
- zum Heil (bzw. zur Verdammnis) bestimmten Menschen durch Gott ohne die Möglichkeit 
- der Beeinflussung durch den Menschen. (Quelle: http://de.wikipedia.org/wiki/Reformierte_Kirche)'); 
+     VALUES (         1810,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         185,         7,         1, 
-        'Es gibt eine gewisse Verwandtschaft mit dem <i>Wohlstandsevangelium</i> 
- dadurch das Askese gelehrt und in diesem Sinne unternehmerischer Erfolg im 
- reformiert-puritanischen Kapitalismus als Belohnung für Verzicht und Entsagung 
- aufgefasst wird. Ist aber in Deutschsprachigen Raum nicht mehr so ausgeprägt. 
- (Quelle: http://de.wikipedia.org/wiki/Wohlstandsevangelium)'); 
+     VALUES (         1811,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         186,         7,         1, 
-        'Teilweise ist die Lehre von der Prädestination anzutreffen, 
- um zu erklären, warum auch Christen, die augenscheinlich ihr Leben richtig führen, 
- den materiellen Segen nicht erlangen. (Quelle: http://de.wikipedia.org/wiki/Wohlstandsevangelium)'); 
+     VALUES (         1812,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         187,         7,         0, 
-        'Anderen Gemeinschaften wird nicht grundsätzlich abgesprochen
- das sie erlöst werden könnten. Es gibt aber Glaubensgemeinschaften (die 
- <i>Friedenskirchen</i>) die im <i>Confessio Augustana</i> verdammt werden. '); 
+     VALUES (         1813,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         188,         7,         0, 
-        'Nein, die lutherische <i>Zwei-Reiche-Lehre</i> wird in reformierten 
- Kirchen nicht gelehrt. (Quelle: http://de.wikipedia.org/wiki/Reformierte_Kirche#Merkmale)'); 
+     VALUES (         1814,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         189,         7,         0, 
-        ''); 
+     VALUES (         1815,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         1810,         7,         0, 
-        ''); 
- 
-INSERT INTO denomination_answers ( 
-        question_id, 
-        denomination_id, 
-        answer_nr, 
-        commentary ) 
-     VALUES (         1811,         7,         0, 
-        ''); 
- 
-INSERT INTO denomination_answers ( 
-        question_id, 
-        denomination_id, 
-        answer_nr, 
-        commentary ) 
-     VALUES (         1812,         7,         1, 
-        ''); 
- 
-INSERT INTO denomination_answers ( 
-        question_id, 
-        denomination_id, 
-        answer_nr, 
-        commentary ) 
-     VALUES (         1813,         7,         0, 
-        ''); 
- 
-INSERT INTO denomination_answers ( 
-        question_id, 
-        denomination_id, 
-        answer_nr, 
-        commentary ) 
-     VALUES (         1814,         7,         1, 
-        ''); 
- 
-INSERT INTO denomination_answers ( 
-        question_id, 
-        denomination_id, 
-        answer_nr, 
-        commentary ) 
-     VALUES (         1815,         7,         0, 
-        ''); 
- 
-INSERT INTO denomination_answers ( 
-        question_id, 
-        denomination_id, 
-        answer_nr, 
-        commentary ) 
-     VALUES (         1816,         7,         0, 
+     VALUES (         1816,         11,         0, 
         ''); 
  
 
@@ -347,10 +322,8 @@ INSERT INTO denomination_answers (
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         2006,         7,         0, 
-        'Die meisten Mitglieder gehen selten bis gar nicht zum
- Gottesdienst oder beteiligen sich nicht am Gemeinde Leben. Oft werden nur die wichtigen
- Veranstaltungen wahrgenommen: Taufe, Heirat, Weihnachten und Beerdigung...'); 
+     VALUES (         2006,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 
 -- ##################### Kategorie : Gemeinde/<br>Ekklesiologie #####################
@@ -360,24 +333,24 @@ INSERT INTO denomination_answers (
 --         denomination_id, 
 --         answer_nr, 
 --         commentary ) 
---      VALUES (         1511,         7,         0, 
---         ''); 
+--      VALUES (         1511,         11,         1, 
+--         '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         2004,         7,         0, 
-        'Sehr unwahrscheinlich'); 
+     VALUES (         2004,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         2010,         7,         2, 
-        ''); 
+     VALUES (         2010,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 
 -- ##################### Kategorie : Gott/<br>Christologie #####################
@@ -387,72 +360,71 @@ INSERT INTO denomination_answers (
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         111,         7,         1, 
-        'Es wird die Lehre der Dreifaltigkeit vertreten.'); 
+     VALUES (         111,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         112,         7,         0, 
-        'Nein er ist Teil der Dreifaltigkeit.'); 
+     VALUES (         112,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         113,         7,         0, 
-        'Nein. Der persönliche Offenbarung wird keine große Rolle beigemessen.'); 
+     VALUES (         113,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         114,         7,         1, 
-        'Die Bibel ist die einzige Grundlage für das theologische Urteilen oder Verurteilen. 
- Das Alte und das Neue Testament werden gleichermaßen betont.'); 
+     VALUES (         114,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         115,         7,         0, 
-        'Dem Prophetisch wird keine große Bedeutung zugeschrieben.'); 
+     VALUES (         115,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         117,         7,         2, 
-        ''); 
+     VALUES (         117,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         1108,         7,         2, 
-        ''); 
+     VALUES (         1108,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         1109,         7,         0, 
-        ''); 
+     VALUES (         1109,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         1110,         7,         0, 
+     VALUES (         1110,         11,         0, 
         ''); 
  
 
@@ -463,48 +435,48 @@ INSERT INTO denomination_answers (
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         171,         7,         1, 
-        'Die Liturgie ist sehr sparsam aber vorhanden..'); 
+     VALUES (         171,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         173,         7,         0, 
-        'Keine Bedeutung'); 
+     VALUES (         173,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         174,         7,         0, 
-        'Keine zentrale Bedeutung. Oft konservative Musik.'); 
+     VALUES (         174,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         175,         7,         0, 
-        'Keine zentrale Bedeutung.'); 
+     VALUES (         175,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         176,         7,         0, 
-        ''); 
+     VALUES (         176,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         1707,         7,         0, 
-        ''); 
+     VALUES (         1707,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 
 -- ##################### Kategorie : Sexualität #####################
@@ -514,61 +486,56 @@ INSERT INTO denomination_answers (
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         161,         7,         2, 
-        'Die Frage ist de facto bedeutungslos und Privatangelegenheit
- der Mitglieder.'); 
+     VALUES (         161,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         162,         7,         0, 
-        'Die Trauung wird in protestantischen Kirchen nicht als 
- Sakrament angesehen, gleichwohl wird nach den meisten agendarischen Vorgaben und 
- landeskirchlichen Ordnungen ein gegenseitiges, vor Gott und der Gemeinde bezeugtes 
- Versprechen abgenommen. (Quelle: http://de.wikipedia.org/wiki/Kirchliche_Trauung#Protestantische_Kirchen)'); 
+     VALUES (         162,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         163,         7,         0, 
-        'Eine erneute Heirat ist möglich'); 
+     VALUES (         163,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         164,         7,         3, 
-        'Homosexuelle Paare können seid einiger Zeit getraut werden.
- (Quelle: http://de.wikipedia.org/wiki/Kirchliche_Trauung#Protestantische_Kirchen)'); 
+     VALUES (         164,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         165,         7,         0, 
-        ''); 
+     VALUES (         165,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         166,         7,         2, 
-        'Nein, das ist die Privatentscheidung der Mitglieder.'); 
+     VALUES (         166,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         167,         7,         2, 
-        'Nein, das ist die Privatentscheidung der Mitglieder.'); 
+     VALUES (         167,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 
 -- ##################### Kategorie : Sonstiges #####################
@@ -578,134 +545,127 @@ INSERT INTO denomination_answers (
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         191,         7,         1, 
-        'Wird als meist als Privatangelegenheit der Mitglieder verstanden.
- gelegentlich gibt es aber politische Aussagen.'); 
+     VALUES (         191,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         192,         7,         0, 
-        'Dem Thema wird keine große Bedeutung beigemessen. Bedingt
- durch die Prädestinationslehre'); 
+     VALUES (         192,         11,         1, 
+        'Siebenten-Tags-Adventisten sind besonders in der Suchtprävention- und Beratung aktiv.'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         193,         7,         0, 
-        ''); 
+     VALUES (         193,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         194,         7,         0, 
-        ''); 
+     VALUES (         194,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         195,         7,         1, 
-        'Besonders in der Vergangenheit wurde das einfache und schmucklose
- Leben propagiert.'); 
+     VALUES (         195,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         196,         7,         1, 
-        ''); 
+     VALUES (         196,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         197,         7,         2, 
-        'Für die Vergangenheit hat ds auf alle Fälle gegolten. Heute 
- wenn dann nur noch in abgeschwächter Form und individuell.'); 
+     VALUES (         197,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         198,         7,         0, 
-        'Die Reformierten sind betont puritanisch und die Kirchen
- sehr schlicht gehalten.'); 
+     VALUES (         198,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         199,         7,         0, 
-        'Nein, gewiss nicht. Gerade in den Anfängen in den Amerikanischen
- Kolonien sind Puritanischer wiederholt durch ihren Blutrausch aufgefallen. Auch
- Heute tun Sie sich nicht durch eine besonders pazifistische Haltung hervor.'); 
+     VALUES (         199,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         1910,         7,         0, 
-        ''); 
+     VALUES (         1910,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         1911,         7,         0, 
-        ''); 
+     VALUES (         1911,         11,         0, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         1912,         7,         1, 
-        ''); 
+     VALUES (         1912,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         1913,         7,         1, 
-        ''); 
+     VALUES (         1913,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         1914,         7,         0, 
-        ''); 
+     VALUES (         1914,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         1915,         7,         0, 
-        ''); 
+     VALUES (         1915,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         1916,         7,         0, 
+     VALUES (         1916,         11,         0, 
         ''); 
  
 
@@ -716,32 +676,32 @@ INSERT INTO denomination_answers (
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         121,         7,         1, 
-        'Die Taufe ist <i>heilig</i> also ein Sakrament und Voraussetzung für die Errettung'); 
+     VALUES (         121,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         122,         7,         1, 
-        'Ja, aber nicht durch untertauchen.'); 
+     VALUES (         122,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         123,         7,         0, 
-        'Die Kindertaufe ist sehr gebräuchlich und die Regel.'); 
+     VALUES (         123,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 INSERT INTO denomination_answers ( 
         question_id, 
         denomination_id, 
         answer_nr, 
         commentary ) 
-     VALUES (         1204,         7,         0, 
-        ''); 
+     VALUES (         1204,         11,         1, 
+        '(Noch) Kein Kommentar'); 
  
 COMMIT;; 
 

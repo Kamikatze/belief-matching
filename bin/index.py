@@ -16,21 +16,27 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import HtmlTemplate
+import VisitLog
 import sqlite3
+import web
+import SQLBackend
 
 class index:
     
     htemp = HtmlTemplate.HtmlTemplate()
     
     def GET(self):
+        _ip = unicode ( web.ctx['ip'] )
+        VisitLog.VisitLog().write ( _ip, 'index' )
+        SQLBackend.SQLBackend().getVisitStatistic ()
         conn = sqlite3.connect('belief-matching.sqlite')
         cur = conn.cursor()
         cur.execute('''
-            SELECT denomination_id, denomination 
+            SELECT denomination_id, denomination, url
             FROM denominations 
             ORDER BY denomination;
             ''' )
-  
+        _deno_list = cur.fetchall()
         htmlcode = ""
         
         _appbox = HtmlTemplate.Tag ( "div" )
@@ -64,13 +70,20 @@ class index:
         _appbox.addContent ( _p_2 )   
 
         _p_3 = HtmlTemplate.Tag ( "p" )
-        _p_3.addContent ( u'Bisher wurden die folgenden Konfessionen in die Datenbank eingepflegt:' )
+        _p_3.addContent ( u'Bisher wurden die folgenden ' )
+        _p_3.addContent ( unicode (  len( _deno_list ) ) )
+        _p_3.addContent ( u' Konfessionen in die Datenbank eingepflegt:' )
         _appbox.addContent ( _p_3 )   
         
-        _list = HtmlTemplate.Tag ( "ul" )
-        for row in cur:
+        _list = HtmlTemplate.Tag ( "ol" )
+        for row in _deno_list:
+            _item_link = HtmlTemplate.Tag ( "a" )
+            _item_link.setAttribute ( "href" , row[2] )
+            _item_link.addContent ( row[1] )
+            
             _item = HtmlTemplate.Tag ( "li" )
-            _item.addContent ( row[1] ) 
+            _item.addContent ( _item_link ) 
+            
             _list.addContent ( _item ) 
         _appbox.addContent ( _list )
         
@@ -94,8 +107,15 @@ class index:
             kannst aber mithelfen den Prozess zu beschleunigen und die Quallität 
             zu verbessern, indem du deine Anmerkungen und Vorschläge an mich 
             schickst (<a href="mailto:briefkasten@olaf-radicke.de">
-            briefkasten@olaf-radicke.de</a>. Oder wenn du sogar mit SQL umgehen 
-            kannst, kannst du auch direkt über 
+            briefkasten@olaf-radicke.de</a>. Oder du Machst ein so genanntes 
+            <i>Ticket</i> auf unter: <a href="http://sourceforge.net/p/belief-matching/tickets/">
+            http://sourceforge.net/p/belief-matching/tickets/</a> Hier werden
+            Änderungswünsche gesammelt und bearbeitet. Da kannst du (und andere)
+            verfolgen, was deinen Änderungswünsche geworden ist.
+            <br><br>
+            
+            
+            Oder wenn du sogar mit SQL umgehen kannst, kannst du auch direkt über 
             <a href="https://github.com/OlafRadicke/belief-matching">GitHub</a> 
             am Code mitarbeiten. Die Software steht unter der 
             <a href="http://de.wikipedia.org/wiki/GNU_Affero_General_Public_License">
@@ -113,4 +133,5 @@ class index:
         htmlcode += self.htemp.getCompleteSite( "home", _appbox )
         #return self.htemp.convertGermanChar( htmlcode )
         #print htmlcode
+        web.header('Content-Type','text/html; charset=utf-8', unique=True)
         return htmlcode

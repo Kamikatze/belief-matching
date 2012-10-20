@@ -24,20 +24,21 @@ from web import form
 import HtmlTemplate
 import index
 import belieftest
-import datenbasis
+import databaseview
 import participate
 import sqlgenerator
+import databaseedit
 
 urls = (
   '/', 'index.index',
-  '/test', 'belieftest.belieftest',
-  '/datenbasis','datenbasis.datenbasis',
+  '/belieftest', 'belieftest.belieftest',
+  '/databaseview','databaseview.databaseview',
+  '/databaseedit','databaseedit.databaseedit',
   '/participate','participate.participate',
   '/sqlgenerator','sqlgenerator.sqlgenerator')
 
-app = web.application(urls, globals())#, web.reloader)
-render = web.template.render('templates/')
 
+app = web.application(urls, globals())#, web.reloader)
 
 
 htemp = HtmlTemplate.HtmlTemplate()
