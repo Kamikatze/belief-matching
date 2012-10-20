@@ -84,9 +84,9 @@ INSERT INTO answers (
 VALUES (
 0,
 'Trifft NICHT zu',
-'Die angegeben Aussage wird vom Benutzer verneint.',
+'Die angegebene Aussage wird vom Benutzer verneint.',
 'Trifft NICHT zu',
-'Die angegeben Aussage wird vom der Konfession verneint.'
+'Die angegebene Aussage wird vom der Konfession verneint.'
 );
 
 INSERT INTO answers ( 
@@ -111,9 +111,9 @@ INSERT INTO answers (
 )  VALUES (
 2,
 'Persönliche Entscheidung',
-'Der Benutzer möchte des es Jedem selbst überlassen bleibt zu entscheiden.',
+'Der Benutzer möchte, dass es jedem selbst überlassen bleibt zu entscheiden.',
 'Persönliche Entscheidung',
-'Die Konfession überlässt es jedem Mitglied darüber selber zu entscheiden.'
+'Die Konfession überlässt es jedem Mitglied darüber selbst zu entscheiden.'
 );
 
 INSERT INTO answers ( 
@@ -168,9 +168,9 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 'Bibel > Eigenschaft und Entstehung',
 'Ich glaube an die Realinspiration der Bibel. Dabei muss der historische Kontext 
  beachtet werden.',
-'Gemeint ist das nicht die Schrift selbst, wohl aber bestimmte Inhalte oder 
+'Gemeint ist, dass nicht die Schrift selbst, wohl aber bestimmte Inhalte oder 
  Ideen der Schrift (von Gott) inspiriert sind. Also überzeitliche religiöse 
- ethische Ideen die kein historischen Anspruch haben. (Quelle: Wikipedia)
+ ethische Ideen, die kein historischen Anspruch haben. (Quelle: Wikipedia)
  Die s.g. <i>historisch-kritischen Exegese</i> des Bibeltextes wird nicht
  abgelehnt.');
 
@@ -203,8 +203,8 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 1410,
 'Bibel > Stellenwert',
-'Ich glaube das über die Bibel hinaus noch wichtige Lehren mündlich weiter gegeben
- wurden und werden. Deshalb ist mir wichtig das ich meine Kirche in der apostolische 
+'Ich glaube, dass über die Bibel hinaus noch wichtige Lehren mündlich weiter gegeben
+ wurden und werden. Deshalb ist es mir wichtig, dass ich meine Kirche in der apostolische 
  Nachfolge (Sukzession) steht.',
 'Die apostolische Sukzession sieht die Kontinuität zwischen Urkirche und heutiger 
  Kirche (bzw. der eigenen Konfessionskirche) dadurch gewährleistet, dass eine 
@@ -260,7 +260,7 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 'Endzeit/Eschatologie',
 'Ich erwarten die baldige Wiederkunft Christi. Ich glaube wir leben in der Endzeit',
 'Gemeint ist hier ein Kollektives allgemein wahrnehmbar Ereignis. Und keine 
- persönliche Offenbarung. Also das Anbrechen des Reich Gottes, das für Alles
+ persönliche Offenbarung. Also das Anbrechen des Reich Gottes, dass für alle Menschen
  sichtbar sein wird.');
 
 ------------------------ Exegese -----------------------------------------------
@@ -268,7 +268,7 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 148,
 'Exegese',
-'Ich glaube das auch Nichttheologen die Bibel richtig verstehen können.',
+'Ich glaube, dass auch Nichttheologen die Bibel richtig verstehen können.',
 'Wörterbücher, Konkordanzen und Kommentare werden aber nicht abgelehnt.');
 
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
@@ -286,8 +286,8 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 199,
 'Friedenszeugnis / Wehrdienst',
-'Wehrdienst lehne ich kategorisch ab. Ich möchte nicht das Wehrangehörige in 
- meine Gemeinde aufgenommen werden. Bzw. Mitglieder die sich militärischen oder
+'Wehrdienst lehne ich kategorisch ab. Ich möchte nicht, dass Wehrangehörige in 
+ meine Gemeinde aufgenommen werden. Bzw. Mitglieder, die sich militärischen oder
  paramilitärischen Gruppen anschließen sollten ausgeschlossen werden.',
 'Was nicht heißen muss, dass Institutionelle Gewalt (Polizei) zum Aufrechterhaltung 
  des öffentlichen Lebens abgelehnt wird, sofern sie angemessen, gerecht und durch
@@ -318,8 +318,7 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 1915,
 'Gebote > Speisegebote',
-'Einige biblischen Speisegebote sollten auch von
- Christen eingehalten werden.',
+'Einige biblischen Speisegebote sollten auch von Christen eingehalten werden.',
 'Adventisten essen daher beispielsweise kein Schweinefleisch, kein Kaninchen 
  und keine Schalentiere (Muscheln, Krabben). Viele Siebenten-Tags-Adventisten 
  ernähren sich vegetarisch (fleischlos). (Wikipedia). Vgl.  3. Mose, Kapitel 11 
@@ -331,14 +330,13 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 153,
 'Gemeinde >  Ämter und Aufgaben',
 'Ich glaube, dass ein Gottesdienst und/oder liturgische Handlungen von Priestern 
- (oder anderen Hauptamtlichen) <b>geleitet</b> werden sollte (die geweiht 
- und/oder eine theologische Ausbildung haben).',
-'Also keine oder sehr eingeschränkte Leiheinpredigten.');
+ (oder anderen Hauptamtlichen, die geweiht und/oder eine theologische Ausbildung haben) <b>geleitet</b> werden sollten.
+'Also keine oder sehr eingeschränkte Leihenpredigten.');
 
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 155,
 'Gemeinde >  Ämter und Aufgaben',
-'Frauen sollen alle Aufgabe in der Gemeinde (einschließlich des Predigen) 
+'Frauen sollen alle Aufgabe in der Gemeinde (einschließlich des Predigens) 
  übernehmen können.',
 'Heute schon fast überall selbstverständlich. Aber nicht z.B. in der Kath. 
  Kirche und bei den Zeugen Jehovas.');
@@ -358,7 +356,7 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 'Bei (wiederholten) Verfehlungen sollten (uneinsichtige) Mitglieder aus der 
  Gemeinde ausgeschlossen werden.',
 'Klassisches Gegenbeispiel ist die katholische Kirche, die Mitglieder maximal
- vom Abendmahl/Eucharistie (<i>Exkommunikation</i>) ausschließt, aber niemals 
+ vom Abendmahl/Eucharistie (<i>Exkommunikation</i>) ausschließt, aber ihnen niemals 
  vollständig die Mitgliedschaft entzieht.');
 
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
@@ -376,7 +374,7 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
  (christlichen) Glauben und einer persönlichen Beziehung zu Jesus
  Christus (wie ich ihn verstehe), die auch im Alltag Auswirkungen 
  auf das persönliche Handeln haben muss. Eine formale Kirchenmitgliedschaft 
- allein genüge nicht.',
+ allein genügt nicht.',
 '');
 
 
@@ -385,7 +383,7 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 151,
 'Gemeinde > Leitung',
-'Ich glaube an das Priestertum Aller und möchte, dass die Gemeinde von Allen 
+'Ich glaube an das Priestertum aller und möchte, dass die Gemeinde von allen 
  gemeinsam geleitet wird (basisdemokratische Abstimmungen oder ähnliches).',
 'Der Gegenentwurf wäre eine hierarchische Organisation.');
 
@@ -410,7 +408,7 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 191,
 'Gesellschaft',
 'Politische Aktivitäten oder Themen haben in der Gemeinde keinen Platz.',
-'Der Glaube ist also in erster Linie Privatangelegenheit. Bzw. Politik wird
+'Der Glaube ist also in erster Linie Privatangelegenheit, bzw. Politik wird
  als zu weltlich abgelehnt, wie z.B. bei den Zeugen Jehovas');
 
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
@@ -473,8 +471,8 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 'Gottesdienst',
 'Freies Gebet im Gottesdienst ist für mich Zeichen von lebendigem und authentischem 
  Glauben.',
-'Gemeint ist, das Redebeiträge, Gebete und Predigten z.T. spontan und unvorbereitet sind.
- Also das Gegenteil eines präzise ausgearbeiteten Textes.');
+'Gemeint ist, dass Redebeiträge, Gebete und Predigten z.T. spontan und unvorbereitet sind, 
+ also das Gegenteil eines präzise ausgearbeiteten Textes.');
 
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 176,
@@ -486,8 +484,8 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 1707,
 'Gottesdienst',
 'Eine gewisse Kleiderordnung im Gottesdienst ist mir schon wichtig.',
-'Gemeint kann sein: das Männer die Kopfbekleidung abnehmen, Frauen Kopftücher
- tragen, das die Beine mit Stoff bedeckt sind oder das einfach eine angemessen
+'Gemeint kann sein: dass Männer die Kopfbekleidung abnehmen, Frauen Kopftücher
+ tragen, dass die Beine mit Stoff bedeckt sind oder dass einfach eine angemessen
  feierliche Kleidung erwartet wird.');
 
 ------------------- Gottesdienst > Abendmahl/Eucharistie -------------------------------------
@@ -542,7 +540,7 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 182,
 'Heil, Erlösung, Rechtfertigung, Errettung',
-'Menschen können verloren gehen, nicht alle Menschen kommen in Gottes Reich',
+'Menschen können verloren gehen. Nicht alle Menschen kommen ins Gottes Reich',
 'Der Gegenentwurf bzw. Überzeug ist die theologische Lehre von der 
  Wiederherstellung aller Dinge am Ende der Zeiten. Die s.g. Apokatastasis oder
  auch <i>Allversöhnung</i>');
@@ -554,7 +552,7 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 'Auf die Erlösung hat man keinen Einfluss, sie wird einem <b>allein</b> durch 
  die Gnade Gottes zuteil.',
 'Gemeint ist hier die <i>Prädestinationslehre</i>. Es liegt allein in der Entscheidung
- Gottes ob man der Sünde verfällt oder errettet wird. Der Gegenentwurf ist das 
+ Gottes ob man der Sünde verfällt oder errettet wird. Der Gegenentwurf ist dass 
  jeder Mensch die freie Wahl hat, Gutes zu tun und dadurch vor Gott gerecht wird.
  Die wird zum Teil als <i>Werkgerechtigkeit</i> bezeichnet.');
 
@@ -574,7 +572,7 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 187,
 'Heil, Erlösung, Rechtfertigung, Errettung',
-'Es kann nur eine Wahrheit geben und deshalb nur einen Weg zur Erlösung führen.',
+'Es gbt nur eine Wahrheit und deshalb nur einen Weg, de zur Erlösung führt.',
 'Hier werden diejenigen zustimmen, die nicht müde werden immer wieder Joh. 14:6 zu
  zitieren.');
 
@@ -590,16 +588,16 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 1913,
 'Heilgenverehrung',
-'Die Verehrung von Heiligen und die bitte um Fürsprache der Selben halte ich 
+'Die Verehrung von Heiligen und die Bitte um Fürsprache der Selben halte ich 
  für falsch.',
-'Die Frage impliziert, das man bestimmte verstorbene für Heilige hält.');
+'Die Frage impliziert, dass man bestimmte Verstorbene für Heilige hält.');
 
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 1912,
 'Heilgenverehrung',
-'Ich glaube, an die jungfräuliche Geburt.',
-'Also, das Maria nicht von einem Mann/Menschen schwanger war oder je mit
- einem Mann geschlafen hat, bevor Sie Jesus ausgetragen hat.');
+'Ich glaube, an die jungfräuliche Geburt Jesu.',
+'Also, dass Maria nicht von einem Mann/Menschen schwanger war oder je mit
+ einem Mann geschlafen hat, bevor Sie Jesus geboren hat.');
 
 -- ========================= I =================================================
 
@@ -611,8 +609,8 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 181,
 'Jenseitsvorstellung',
 'Ich glaube, dass für jeden Menschen eine Zeit kommt, wo er von Gott gerichtet wird.',
-'Der Gegenentwurf ist die s.g. <i>Allaussöhnung</i> (Apokatastasis). Also ein gütiger
- Gott der alles nach sieht.');
+'Der Gegenentwurf ist die s.g. <i>Allaussöhnung</i> (Apokatastasis), also ein gütiger
+ Gott der alles vergibt.');
 
 
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
@@ -627,9 +625,9 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 1815,
 'Jenseitsvorstellung',
 
-'Der ist Tod ein Zustand des Schlafs. Ein Mensch erlebt die Zeit seines Todes 
+'Der Tod istein Zustand des Schlafs. Ein Mensch erlebt die Zeit seines Todes 
  nicht bewusst. Die Menschen kommen <b>nicht</b> direkt nach dem Tod in den Himmel oder 
- in die Hölle. Diese Zeit endet mit der Auferstehung die (im Falle der Gerechten) 
+ in die Hölle. Diese Zeit endet mit der Auferstehung, die (im Falle der Gerechten) 
  zur Wiederkunft Christi bzw. (im Falle der Gottlosen) nach dem Millennium 
  geschieht. Es schließt sich dann das Jüngste Gericht an. Dieses endet für die 
  Gottlosen nicht mit einer ewigen Qual in einer feurigen Hölle, sondern mit der 
@@ -678,24 +676,24 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 'Offenbarung',
 'Gott offenbart sich direkt und jedem Menschen.',
 'Das zielt u.a. auf die Auffassungen der Quäker ab. Das sich Gott jedem Menschen
- offenbart, heißt nicht, das jeder Mensch bereit ist, dem Willen Gottes zu folgen.
+ offenbart, heißt nicht, dass jeder Mensch bereit ist, dem Willen Gottes zu folgen.
  Die innere Stimme oder das eigene Gewissen könnte man als eine solche göttliche
  Offenbarung verstehen.');
 
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 114,
 'Offenbarung',
-'Gott offenbart sich in erster Linie durch die Bibel und diese überwiegt alles Andere.',
-'Das zielt u.a. auf die Protestanten und den Glaubenssatz ab: <i>allen die Schrift</i>.
+'Gott offenbart sich in erster Linie durch die Bibel und diese überwiegt alles andere.',
+'Das zielt u.a. auf die Protestanten und den Glaubenssatz ab: <i>allein die Schrift</i>.
  die Quäker z.B. werden hier nicht zustimmen. Für sie ist es der Geist der Bibel,
- also die unmittelbare Offenbarung, der meisten Gewicht beigemessen wird.');
+ also die unmittelbare Offenbarung, der das meiste Gewicht beigemessen wird.');
 
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 115,
 'Offenbarung',
 'Gott offenbart sich nur oder vor allem bestimmten Menschen (Propheten) und diese 
-haben die Aufgabe den Anderen Gottes willen zu verkünden.',
-'Das ist im Grunde die alt testamentarische Sicht.');
+haben die Aufgabe den anderen Gottes Willen zu verkünden.',
+'Das ist im Grunde die alt-testamentarische Sicht.');
 
 -- ========================= P =================================================
 
@@ -704,7 +702,7 @@ haben die Aufgabe den Anderen Gottes willen zu verkünden.',
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 1911,
 'Papsttum',
-'Ich glaube, in der Ausübung des Lehramt ist der Papstes unfehlbar.',
+'Ich glaube, in der Ausübung des Lehramtes ist der Papstes unfehlbar.',
 '');
 
 -- ========================= R =================================================
@@ -731,8 +729,8 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 162,
 'Sexualität',
-'Die Ehe ist heilig also ein Sakrament.',
-'Wer hier zustimmt,wird höchstwahrscheinlich eine Scheidung nur im Notfall zustimmen.'); 
+'Die Ehe ist heilig -also ein Sakrament.',
+'Wer hier zustimmt, wird höchstwahrscheinlich einer Scheidung nur im Notfall zustimmen.'); 
        
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 163,
@@ -778,8 +776,8 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 189,
 'Sünde',
-'Eine Erlösung (vom Bösen/ der Sünde) ist schon im Diesseits möglich.',
-'Gemeint ist, das ein Leben ohne Sünde möglich ist. Hier wird ein <i>Perfektionismus</i>
+'Eine Erlösung (vom Bösen/der Sünde) ist schon im Diesseits möglich.',
+'Gemeint ist, dass ein Leben ohne Sünde möglich ist. Hier wird ein <i>Perfektionismus</i>
  angestrebt, wie er im Pietismus und konservativen Quäkertum. angestrebt wird');
 
 ------------------------------ Sünde > Erbsünde --------------------------------
@@ -787,7 +785,7 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 1810,
 'Sünde > Erbsünde',
-'Die Sündhaftigkeit und Schuld setzen den Menschen Gottes Zorn und
+'Die Sündhaftigkeit und Schuld setzen den Menschen Gottes Zorn und seine
 Verdammnis aus. Die Erlösung hieraus kann nur durch einen Gnadenakt
 Gottes erfolgen und setzt den Glauben an Jesus Christus, seinen
 stellvertretenden Opfertod und seine Auferstehung sowie die Bekehrung
@@ -811,7 +809,7 @@ INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 'Durch den Opfertod Jesus wurde die Erbsünde für alle Menschen vorbehaltlos und 
  bedingungslos gesühnt. Heute müssen sich die Menschen nur noch für die von ihnen
  selbst gemachten Sünden vor Gott rechtfertigen.',
-'Die Erbsünde selber wird nicht in Frage gestellt. Nur deren heutige Relevanz.');
+'Die Erbsünde selbest wird nicht in Frage gestellt, lediglich ihre heutige Relevanz.');
 
 INSERT INTO questions (question_id, kat, question, commentary) VALUES (
 1814,
